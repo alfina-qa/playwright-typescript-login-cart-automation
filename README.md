@@ -22,3 +22,34 @@ The framework automates **login** and **cart flow** scenarios using the **Page O
 ---
 
 ## 📁 Project Structure
+pages/
+├── LoginPage.ts
+└── CartPage.ts
+
+tests/
+├── login.spec.ts
+└── cart.spec.ts
+
+playwright.config.ts
+package.json
+tsconfig.json
+
+
+---
+
+ 🚀 How to Run the Tests
+
+ 1️⃣ Install dependencies
+
+npm install
+
+2️⃣ Install Playwright browsers
+npx playwright install
+
+3️⃣ Run all tests
+npx playwright test
+
+🌐 Test Application
+
+Automation is executed against the public demo site:
+https://www.saucedemo.com
